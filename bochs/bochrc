@@ -1,0 +1,7 @@
+# bochsrc 示例配置
+megs: 32                      # 设置内存大小为 32MB
+romimage: file=bios/BIOS-bochs-latest  # 加载 BIOS 映像
+vgaromimage: file=bios/VGABIOS-lgpl-latest
+boot: disk                    # 从磁盘启动
+ata0-master: type=disk, path="hd.img", mode=flat
+
